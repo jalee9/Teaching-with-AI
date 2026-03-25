@@ -22,31 +22,31 @@ It is designed for:
 
 ### ⚙️ Workflows  
 Step-by-step processes for using AI in teaching and academic work  
-➡️ [Browse Workflows](./workflows/index.md)
+➡️ [Browse Workflows](./workflows/)
 
 ---
 
 ### 💬 Prompts  
 Reusable prompts for teaching, feedback, communication, and course design  
-➡️ [View Prompts](./prompts/README.md)
+➡️ [View Prompts](./prompts/)
 
 ---
 
 ### 🧪 Assignments  
 AI-integrated classroom activities and project ideas  
-➡️ [See Assignments](./assignments/README.md)
+➡️ [See Assignments](./assignments/)
 
 ---
 
 ### 🧰 Templates  
 Reusable templates for announcements, feedback, and instructional materials  
-➡️ [Explore Templates](./templates/README.md)
+➡️ [Explore Templates](./templates/)
 
 ---
 
 ### 📚 Conference Notes  
 Insights translated from professional learning into teaching practice  
-➡️ [Conference Notes](./conference-notes/README.md)
+➡️ [Conference Notes](./conference-notes/)
 
 ---
 
