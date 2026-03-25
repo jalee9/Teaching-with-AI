@@ -83,6 +83,10 @@ Everything here is meant to be **practical and flexible**.
 
 This is an evolving resource. If you have ideas, adaptations, or improvements, feel free to build on them.
 
+Interested in contributing ideas or resources?
+
+➡️ See [Contribute.md](./Contribute.md)
+
 ---
 
 ## 📜 License
