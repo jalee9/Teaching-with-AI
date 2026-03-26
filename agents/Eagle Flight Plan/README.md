@@ -44,54 +44,15 @@ The agent walks students through a step-by-step evaluation:
 
 ## How Eagle Flight Plan Works
 
-```mermaid
-flowchart TB
-
-subgraph Row
-direction LR
-
-    subgraph Input Phase
-    direction TD
-        A[Courses]
-        B[Work]
-        C[Sleep]
-        D[Responsibilities]
-        E[Preferences]
-        A --> B
-        B --> C
-        C --> D
-        D --> E
-    end
-
-    subgraph Analysis Phase
-    direction TD
-        F[Estimate Time]
-        G[Available Time]
-        F --> G
-    end
-
-    subgraph Output Phase
-    direction TD
-        H[Time Chart]
-        I[Visualization]
-        J[Flight Status]
-        K[Eagle Score]
-        L[Weekly Plan]
-        M[Action Step]
-        N[Reflection]
-        H --> I
-        I --> J
-        J --> K
-        K --> L
-        L --> M
-        M --> N
-    end
-
-end
-
-E --> F
-G --> H
-```
+| Input Phase | Analysis Phase | Output Phase |
+|---|---|---|
+| Courses | Estimate Time | Time Chart |
+| Work | Available Time | Visualization |
+| Sleep |  | Flight Status |
+| Responsibilities |  | Eagle Score |
+| Preferences |  | Weekly Plan |
+|  |  | Action Step |
+|  |  | Reflection |
 
 ## ✈️ Flight Status System
 
