@@ -128,28 +128,33 @@ A catch-up buffer
 
 The focus is on consistency over cramming.
 
-### 💬 Suggested Prompts
-Check my schedule
-Too many classes?
-Work + School Check
-Course Time Estimate
-Build my weekly plan
-I feel overwhelmed
+## 💬 Suggested Prompts
+
+- Check my schedule  
+- Too many classes?  
+- Work + School Check  
+- Course Time Estimate  
+- Build my weekly plan  
+- I feel overwhelmed  
 
 ---
 
 ## 🛠️ Implementation Notes
-Built in Microsoft Copilot Studio
-No external knowledge sources required
-Uses structured prompts and guided evaluation
-Designed for LMS integration and advising workflows
 
-### 🎓 Use Cases
-First-year student success courses
-Academic advising conversations
-Online course onboarding
-Time management interventions
-Early alert and retention strategies
+- Built in Microsoft Copilot Studio  
+- No external knowledge sources required  
+- Uses structured prompts and guided evaluation  
+- Designed for LMS integration and advising workflows  
+
+---
+
+## 🎓 Use Cases
+
+- First-year student success courses  
+- Academic advising conversations  
+- Online course onboarding  
+- Time management interventions  
+- Early alert and retention strategies  
 
 ---
 
