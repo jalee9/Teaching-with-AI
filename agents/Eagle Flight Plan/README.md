@@ -45,21 +45,30 @@ The agent walks students through a step-by-step evaluation:
 ## How Eagle Flight Plan Works
 
 ```mermaid
-flowchart TD
-    A[Student Starts Agent] --> B[Course Questions]
-    B --> C[Work and Schedule Questions]
-    C --> D[Sleep and Responsibilities]
+flowchart LR
+
+subgraph Input
+    A[Courses] --> B[Work and Schedule]
+    B --> C[Sleep]
+    C --> D[Responsibilities]
     D --> E[Study Preferences]
-    E --> F[Estimate Coursework Time]
-    F --> G[Calculate Available Time]
-    G --> H[Time Reality Chart]
-    H --> I[Weekly Time Visualization]
+end
+
+subgraph Analysis
+    F[Estimate Coursework Time] --> G[Calculate Available Time]
+end
+
+subgraph Output
+    H[Time Reality Chart] --> I[Time Visualization]
     I --> J[Flight Status]
     J --> K[Eagle Score]
-    K --> L[Weekly Flight Plan]
-    L --> M[Immediate Action Step]
-    M --> N[Reflection Question]
-    N --> O[Student Gains Clarity and Plan]
+    K --> L[Weekly Plan]
+    L --> M[Action Step]
+    M --> N[Reflection]
+end
+
+E --> F
+G --> H
 ```
 
 ## ✈️ Flight Status System
@@ -103,13 +112,15 @@ The score helps students quickly interpret their situation while reinforcing the
 **Remaining flexible time:** 23 hours  
 
 ### Weekly Time Budget
+
+```text
 Sleep: ████████████████████ 56 hrs
 Work: ███████████████ 40 hrs
 Coursework: ██████████ 24 hrs
 Responsibilities: ███████ 20 hrs
 Commute: ██ 5 hrs
 Remaining flexible time: ████ 23 hrs
-
+```
 ---
 
 ## 🧭 Weekly Flight Plan
