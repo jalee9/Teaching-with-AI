@@ -113,6 +113,7 @@ Coursework: ██████████ 24 hrs
 Responsibilities: ███████ 20 hrs
 Commute: ██ 5 hrs
 Remaining flexible time: ████ 23 hrs
+```
 
 ---
 
