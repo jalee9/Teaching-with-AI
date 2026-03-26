@@ -42,6 +42,31 @@ The agent walks students through a step-by-step evaluation:
    - **Weekly Flight Plan**
    - **Reflection Question**
 
+## 🧭 How Eagle Flight Plan Works
+
+```mermaid
+flowchart TD
+
+A[Student Starts Agent] --> B[Course Questions]
+B --> C[Work + Schedule Questions]
+C --> D[Sleep + Responsibilities]
+D --> E[Study Preferences]
+
+E --> F[Estimate Coursework Time]
+F --> G[Calculate Available Time]
+
+G --> H[Time Reality Chart]
+H --> I[Weekly Time Visualization]
+
+I --> J[Flight Status]
+J --> K[Eagle Score]
+
+K --> L[Weekly Flight Plan]
+L --> M[Immediate Action Step]
+M --> N[Eagle Reflection Question]
+
+N --> O[Student Gains Clarity + Plan]
+
 ---
 
 ## ✈️ Flight Status System
