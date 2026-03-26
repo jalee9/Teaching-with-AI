@@ -45,21 +45,24 @@ The agent walks students through a step-by-step evaluation:
 ## How Eagle Flight Plan Works
 
 ```mermaid
-flowchart LR
+flowchart TD
 
-subgraph Input
-    A[Courses] --> B[Work and Schedule]
+subgraph Input Phase
+    direction LR
+    A[Courses] --> B[Work]
     B --> C[Sleep]
     C --> D[Responsibilities]
-    D --> E[Study Preferences]
+    D --> E[Preferences]
 end
 
-subgraph Analysis
-    F[Estimate Coursework Time] --> G[Calculate Available Time]
+subgraph Analysis Phase
+    direction LR
+    F[Estimate Time] --> G[Available Time]
 end
 
-subgraph Output
-    H[Time Reality Chart] --> I[Time Visualization]
+subgraph Output Phase
+    direction LR
+    H[Time Chart] --> I[Visualization]
     I --> J[Flight Status]
     J --> K[Eagle Score]
     K --> L[Weekly Plan]
