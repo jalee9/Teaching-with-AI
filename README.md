@@ -20,6 +20,11 @@ It is designed for:
 
 ## 🚀 Explore the Repository
 
+### 🤖 Agents  
+AI-powered tools designed to support student success, decision-making, and learning workflows  
+
+➡️ [Explore Agents](./agents/)
+
 ### ⚙️ Workflows  
 Step-by-step processes for using AI in teaching and academic work  
 ➡️ [Browse Workflows](./workflows/)
@@ -47,6 +52,23 @@ Reusable templates for announcements, feedback, and instructional materials
 ### 📚 Conference Notes  
 Insights translated from professional learning into teaching practice  
 ➡️ [Conference Notes](./conference-notes/)
+
+---
+
+## 🤖 Featured Agent
+
+### 🦅 Eagle Flight Plan  
+A student-centered AI agent that helps learners evaluate whether their course schedule realistically fits their available time.
+
+**What it does:**
+- Estimates weekly coursework time  
+- Calculates available time based on real-life commitments  
+- Provides:
+  - Flight Status (Safe, Caution, Danger)  
+  - Eagle Score (schedule balance indicator)  
+  - Weekly plan and reflection  
+
+➡️ [View Eagle Flight Plan](./agents/eagle-flight-plan/README.md)
 
 ---
 
