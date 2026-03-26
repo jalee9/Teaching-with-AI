@@ -54,13 +54,18 @@ subgraph Input Phase
     C[Sleep]
     D[Responsibilities]
     E[Preferences]
-    A --> B --> C --> D --> E
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 end
 
 subgraph Analysis Phase
     direction TD
     F[Estimate Time]
     G[Available Time]
+
     F --> G
 end
 
@@ -73,7 +78,13 @@ subgraph Output Phase
     L[Weekly Plan]
     M[Action Step]
     N[Reflection]
-    H --> I --> J --> K --> L --> M --> N
+
+    H --> I
+    I --> J
+    J --> K
+    K --> L
+    L --> M
+    M --> N
 end
 
 E --> F
