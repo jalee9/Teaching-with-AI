@@ -25,6 +25,8 @@ AI-powered tools designed to support student success, decision-making, and learn
 
 ➡️ [Explore Agents](./agents/)
 
+---
+
 ### ⚙️ Workflows  
 Step-by-step processes for using AI in teaching and academic work  
 ➡️ [Browse Workflows](./workflows/)
